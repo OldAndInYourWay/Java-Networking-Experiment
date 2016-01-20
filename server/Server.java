@@ -48,7 +48,6 @@ public class Server extends Thread {
 		
 		//A structure that just keeps listening for in and waiting to send messages as well
 		while(true){
-			System.out.println("fuck");
 			if(message != null){
 				sendMessage(message); //initial message upon connection
 				message = null;		  //clear the message
